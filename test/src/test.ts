@@ -109,31 +109,31 @@ export const test = () => {
             console.log("hello would");
         }
     }
-    const user = new User(1, "mike", 25, "atekusi", true);
-    //public, private, protected
-    const foo = (arg: string): string => {
-        return arg;
-    };
-    const foo2 = <T>(arg: T): T => {
-        return arg;
-    };
-      foo2<string>("hey");
-      foo2<number>(29);
-    foo2<boolean>(true);
-    const fetchUserData = async () => {
-      const response = await fetch("userId/data/status", {
-        userId: 1;
-      })
-      return response.data.status;
-  }
-  const isActive:boolean = fetchUserData() ?? false;
-  
-    const fetchUserData = async () => {
-      const response = await fetch("userId/data/status", {
-        userId: 1;
-      })
-      return response.data;
-    }
-  const userInfoData = fetchUserData();
-  const feachName = userInfoData?.family?.father;
+    //   const user = new User(1, "mike", 25, "atekusi", true);
+    //   //public, private, protected
+    //   const foo = (arg: string): string => {
+    //       return arg;
+    //   };
+    //   const foo2 = <T>(arg: T): T => {
+    //       return arg;
+    //   };
+    //     foo2<string>("hey");
+    //     foo2<number>(29);
+    //   foo2<boolean>(true);
+    //   const fetchUserData = async () => {
+    //     const response = await fetch("userId/data/status", {
+    //       userId: 1;
+    //     })
+    //     return response.data.status;
+    // }
+    // const isActive:boolean = fetchUserData() ?? false;
+
+    //   const fetchUserData = async () => {
+    //     const response = await fetch("userId/data/status", {
+    //       userId: 1;
+    //     })
+    //     return response.data;
+    //   }
+    // const userInfoData = fetchUserData();
+    // const feachName = userInfoData?.family?.father;
 };
